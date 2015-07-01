@@ -2,7 +2,7 @@
   "name": "skatejs-type-attribute",
   "version": "0.0.0",
   "description": "Attribute binding type.",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "dependencies": {},
   "devDependencies": {
     "chippy": "treshugart/chippy#dfc4c5022a103e81eeb0404c8026ddb1ca5fd6da",

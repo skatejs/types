@@ -16,7 +16,7 @@ __7ddb6a78eaea9464fd34a8960235d237 = (function () {
       elem.setAttribute(opts.id, '');
       return elem;
     },
-    filterDefinitions: function filterDefinitions(elem, defs) {
+    filter: function filter(elem, defs) {
       var attrs = elem.attributes;
       var attrsLen = attrs.length;
       var definitions = [];
@@ -26,11 +26,13 @@ __7ddb6a78eaea9464fd34a8960235d237 = (function () {
         var attr = attrs[a].nodeName;
         var definition = defs[attr];
   
-        if (definition && definition.type === this) {
-          var tagToExtend = definition['extends'];
-          if (!tagToExtend || tag === tagToExtend) {
-            definitions.push(definition);
-          }
+        if (!definition) {
+          continue;
+        }
+  
+        var tagToExtend = definition['extends'];
+        if (!tagToExtend || tag === tagToExtend) {
+          definitions.push(definition);
         }
       }
   
