@@ -1,0 +1,31 @@
+{
+  "name": "skatejs-type-attribute",
+  "version": "0.0.0",
+  "description": "Attribute binding type.",
+  "main": "src/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chippy": "treshugart/chippy#dfc4c5022a103e81eeb0404c8026ddb1ca5fd6da",
+    "gulp": "^3.8.11",
+    "gulp-auto-task": "0.0.1"
+  },
+  "scripts": {
+    "deploy": "gulp deploy",
+    "dist": "gulp dist",
+    "docs": "gulp docs",
+    "lib": "gulp lib",
+    "lint": "gulp lint",
+    "release": "gulp release",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skatejs/type-attribute"
+  },
+  "author": "Trey Shugart <treshugart@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skatejs/type-attribute/issues"
+  },
+  "homepage": "https://github.com/skatejs/type-attribute#readme"
+}
