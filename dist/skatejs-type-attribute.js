@@ -20,7 +20,7 @@ __7ddb6a78eaea9464fd34a8960235d237 = (function () {
       var attrs = elem.attributes;
       var attrsLen = attrs.length;
       var definitions = [];
-      var tag = elem.tagName.toLowerCase();
+      var tag = (elem.tagName || elem.localName).toLowerCase();
   
       for (var a = 0; a < attrsLen; a++) {
         var attr = attrs[a].nodeName;

@@ -8,7 +8,7 @@ export default {
     var attrs = elem.attributes;
     var attrsLen = attrs.length;
     var definitions = [];
-    var tag = elem.tagName.toLowerCase();
+    var tag = (elem.tagName || elem.localName).toLowerCase();
 
     for (let a = 0; a < attrsLen; a++) {
       let attr = attrs[a].nodeName;
