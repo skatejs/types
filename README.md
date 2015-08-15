@@ -12,9 +12,7 @@ skate('attribute-name', {
 });
 ```
 
-Attributes are a great way to mix in functionality but lack the explicitness of tag names, or the <code>is</code> attribute.
-
-Use attribute names when:
+Attributes are a great way to mix in functionality but lack the explicitness of tag names, or the `is` attribute. Use attribute names when:
 
 - You have functionality that you want to declaratively mix-in to your element.
 - Your component won't conflict with other components on the same element.
