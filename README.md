@@ -2,12 +2,14 @@
 
 A binding for using attribute names to identify a component.
 
+```html
+<div attribute-name></div>
+```
+
 ```js
 skate('attribute-name', {
-  type: attributeNameBinding
+  type: skateTypeAttribute
 });
-
-<div attribute-name></div>
 ```
 
 Attributes are a great way to mix in functionality but lack the explicitness of tag names, or the <code>is</code> attribute.
