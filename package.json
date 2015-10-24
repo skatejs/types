@@ -1,5 +1,5 @@
 {
-  "name": "skatejs-type-attribute",
+  "name": "skatejs-types",
   "version": "0.0.0",
   "description": "Attribute binding type.",
   "main": "lib/index.js",
