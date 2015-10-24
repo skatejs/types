@@ -13,7 +13,7 @@ __54026cc39d66d3aed10e4fe87255cdd3 = (function () {
   exports['default'] = {
     create: function create(opts) {
       var elem = document.createElement(opts['extends'] || 'div');
-      elem.setAttribute(opts.name, '');
+      elem.setAttribute(opts.id, '');
       return elem;
     },
     filter: function filter(elem, defs) {
@@ -68,7 +68,7 @@ __3234d8f48147f132a33e6e88b1b16f31 = (function () {
   exports['default'] = {
     create: function create(opts) {
       var elem = document.createElement(opts['extends'] || 'div');
-      elem.className = opts.name;
+      elem.className = opts.id;
       return elem;
     },
     filter: function filter(elem, defs) {

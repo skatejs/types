@@ -11,7 +11,7 @@ function getClassList (element) {
 export default {
   create (opts) {
     var elem = document.createElement(opts.extends || 'div');
-    elem.className = opts.name;
+    elem.className = opts.id;
     return elem;
   },
   filter (elem, defs) {
