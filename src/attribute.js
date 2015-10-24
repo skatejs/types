@@ -1,7 +1,7 @@
 export default {
   create (opts) {
     var elem = document.createElement(opts.extends || 'div');
-    elem.setAttribute(opts.id, '');
+    elem.setAttribute(opts.name, '');
     return elem;
   },
   filter (elem, defs) {
