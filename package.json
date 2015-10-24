@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "dependencies": {},
   "devDependencies": {
-    "skatejs-build": "skatejs/build#1172d09"
+    "skatejs-build": "skatejs/build#bfe4c57"
   },
   "scripts": {
     "deploy": "gulp deploy",
