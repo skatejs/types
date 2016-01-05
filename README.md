@@ -15,7 +15,7 @@ A binding for using attribute names to identify a component.
 
 ```js
 skate('attribute-name', {
-  type: skateTypeAttribute
+  type: skateTypes.attribute
 });
 ```
 
@@ -37,7 +37,7 @@ A binding for using class names to identify a component.
 
 ```js
 skate('class-name', {
-  type: skateTypeClass
+  type: skateTypes.classname
 });
 ```
 
