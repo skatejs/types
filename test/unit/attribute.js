@@ -46,7 +46,7 @@ describe('attributes', function () {
     expect(div.component2Created).to.equal(undefined);
   });
 
-  it('does not initialises mismatched attributes', function () {
+  it('does not initialise mismatched attributes', function () {
     skate(safeComponentName(), {
       created: function (el) {
         el.created = true;

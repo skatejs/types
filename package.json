@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "dependencies": {},
   "devDependencies": {
-    "skatejs-build": "skatejs/build#f098901",
+    "skatejs-build": "skatejs/build#beb2d1f",
     "skatejs": "skatejs/skatejs#65b6ce3cc25a0985114b30b572a7bb9379b6badb"
   },
   "scripts": {
