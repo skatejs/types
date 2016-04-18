@@ -1,7 +1,7 @@
 {
   "name": "skatejs-types",
   "description": "Attribute / class binding type.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Trey Shugart <treshugart@gmail.com> (http://treshugart.github.io)",
   "repository": "git@github.com:skatejs/skatejs-types",
   "main": "lib/index.js",
