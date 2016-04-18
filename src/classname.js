@@ -14,10 +14,9 @@ export default {
     elem.className = opts.id;
     return elem;
   },
-  filter (elem, defs) {
+  reduce (elem, defs) {
     var classList = getClassList(elem);
     var classListLen = classList.length;
-    var definitions = [];
     var tag = (elem.tagName || elem.localName).toLowerCase();
 
     for (let a = 0; a < classListLen; a++) {
@@ -30,10 +29,10 @@ export default {
 
       let tagToExtend = definition.extends;
       if (!tagToExtend || tag === tagToExtend) {
-        definitions.push(definition);
+        return definition;
       }
     }
 
-    return definitions;
+    return false;
   }
 };

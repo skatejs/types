@@ -4,10 +4,9 @@ export default {
     elem.setAttribute(opts.id, '');
     return elem;
   },
-  filter (elem, defs) {
+  reduce (elem, defs) {
     var attrs = elem.attributes;
     var attrsLen = attrs.length;
-    var definitions = [];
     var tag = (elem.tagName || elem.localName).toLowerCase();
 
     for (let a = 0; a < attrsLen; a++) {
@@ -20,10 +19,10 @@ export default {
 
       let tagToExtend = definition.extends;
       if (!tagToExtend || tag === tagToExtend) {
-        definitions.push(definition);
+        return definition;
       }
     }
 
-    return definitions;
+    return false;
   }
 };
