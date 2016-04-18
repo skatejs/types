@@ -1,6 +1,6 @@
 {
   "name": "skatejs-types",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Attribute / class binding type.",
   "main": "lib/index.js",
   "dependencies": {},
