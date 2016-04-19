@@ -177,7 +177,7 @@
   for (var name in api) {
     main[name] = api[name];
   }
-  main.version = '0.0.0';
+  main.version = '0.1.0';
 
   return main;
 
