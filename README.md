@@ -1,4 +1,6 @@
-# Binding types for SkateJS
+# [DEPRECATED] Binding types for SkateJS
+
+***PLEASE NOTE: Custom types have been deprecated and will not work in Skate 1.x+. They will continue to work in 0.x releases.***
 
 This repository contains binding types for [SkateJS](https://github.com/skatejs/skatejs) components. Included types are:
 
